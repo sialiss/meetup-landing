@@ -2,4 +2,4 @@
 :HL["/meetup-landing/_next/static/media/7cdbb9ca823c0a73-s.p.1h6d36qg8q9eb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/meetup-landing/_next/static/media/cf514f5d0007dafa-s.p.1wc2mf9hp9pav.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/meetup-landing/_next/static/chunks/1j_vldtdm5ldl.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"87BxPBt8tBCcDu0DEeTIZ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"8cvWqkyKO7jirmnJD6hCe"}
