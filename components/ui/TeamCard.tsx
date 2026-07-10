@@ -11,7 +11,7 @@ export default function TeamCard({ image, name }: Props) {
 		<article className="group">
 			<div className="relative aspect-[4/5] overflow-hidden">
 				<Image
-					src={image}
+					src={basePath+"/"+image}
 					alt={name}
 					fill
 					className="object-cover transition duration-500 group-hover:scale-105"

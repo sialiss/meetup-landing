@@ -11,7 +11,12 @@ export default function AudienceItem({ icon, title, description }: Props) {
 	return (
 		<div className="flex items-start gap-8">
 			<div className="flex h-24 w-24 shrink-0 items-center justify-center">
-				<Image src={icon} alt={title} width={96} height={96} />
+				<Image
+					src={basePath + "/" + icon}
+					alt={title}
+					width={96}
+					height={96}
+				/>
 			</div>
 
 			<div className="pt-2">

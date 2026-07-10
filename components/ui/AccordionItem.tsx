@@ -25,7 +25,7 @@ export default function AccordionItem({ title, icon, description }: Props) {
 						<div className="flex items-center">
 							<div className="mt-0.5 flex h-8 w-8 shrink-0">
 								<Image
-									src={icon}
+									src={basePath+"/"+icon}
 									alt=""
 									width={24}
 									height={24}

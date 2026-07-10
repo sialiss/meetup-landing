@@ -117,7 +117,7 @@ export default function Gallery() {
 									}}
 								>
 									<Image
-										src={image}
+										src={basePath + "/" + image}
 										alt=""
 										fill
 										draggable={false}

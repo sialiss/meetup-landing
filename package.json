@@ -7,7 +7,7 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "eslint",
-		"deploy": "node ./gh-pages.js"
+		"deploy": "next build && node ./gh-pages.js"
 	},
 	"dependencies": {
 		"clsx": "^2.1.1",

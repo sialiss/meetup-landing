@@ -12,7 +12,7 @@ export default function CommunityCard({ title, description, image }: Props) {
 		<article className="flex items-start gap-5">
 			<div className="relative h-68 w-68 shrink-0">
 				<Image
-					src={image}
+					src={basePath + "/" + image}
 					alt={title}
 					fill
 					className="object-contain"
