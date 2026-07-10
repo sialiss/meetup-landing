@@ -2,4 +2,4 @@
 2:I[42814,["/meetup-landing/_next/static/chunks/05ayo9zkf7lou.js","/meetup-landing/_next/static/chunks/3r6im62v8fqz8.js"],"default"]
 3:I[76568,["/meetup-landing/_next/static/chunks/05ayo9zkf7lou.js","/meetup-landing/_next/static/chunks/3r6im62v8fqz8.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"8cvWqkyKO7jirmnJD6hCe"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"hRuZwYETa4Db52rl-SzNx"}
