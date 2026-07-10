@@ -3,7 +3,21 @@
 import Container from "./Container"
 import Image from "next/image"
 
-const nav = ["О нас", "Митапы", "Контакты"]
+const nav = [
+	{
+		label: "О нас",
+		href: "#about",
+	},
+	{
+		label: "Митапы",
+		href: "https://piterjs.org/",
+		external: true,
+	},
+	{
+		label: "Контакты",
+		href: "#contacts",
+	},
+]
 
 export default function Header() {
 	return (
@@ -20,14 +34,18 @@ export default function Header() {
 						/>
 					</div>
 
-					<nav className=" items-center gap-10 lg:flex">
+					<nav className="items-center gap-10 lg:flex">
 						{nav.map(item => (
 							<a
-								key={item}
-								href="#"
+								key={item.href}
+								href={item.href}
+								{...(item.external && {
+									target: "_blank",
+									rel: "noopener noreferrer",
+								})}
 								className="text-xs uppercase tracking-[0.2em] text-white transition hover:text-[#FFD400]"
 							>
-								{item}
+								{item.label}
 							</a>
 						))}
 					</nav>
