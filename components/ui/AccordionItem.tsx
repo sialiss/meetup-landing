@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
+import { basePath } from "@/lib/basePath"
 import { ChevronDown, Minus } from "lucide-react"
 
 interface Props {

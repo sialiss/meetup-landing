@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
+import { basePath } from "@/lib/basePath"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 import Container from "../layout/Container"

@@ -1,6 +1,7 @@
 import Button from "../ui/Button"
 import Textarea from "../ui/Textarea"
 import Image from "next/image"
+import { basePath } from "@/lib/basePath"
 
 export default function Contact() {
 	return (
@@ -24,25 +25,25 @@ export default function Contact() {
 
 						<div className="mt-5 flex gap-3">
 							<Image
-								src="/images/icons/social/t.png"
+								src={`${basePath}/images/icons/social/t.png`}
 								alt=""
 								width={28}
 								height={28}
 							/>
 							<Image
-								src="/images/icons/social/vk.png"
+								src={`${basePath}/images/icons/social/vk.png`}
 								alt=""
 								width={28}
 								height={28}
 							/>
 							<Image
-								src="/images/icons/social/github.png"
+								src={`${basePath}/images/icons/social/github.png`}
 								alt=""
 								width={28}
 								height={28}
 							/>
 							<Image
-								src="/images/icons/social/www.youtube.png"
+								src={`${basePath}/images/icons/social/www.youtube.png`}
 								alt=""
 								width={28}
 								height={28}
@@ -74,33 +75,6 @@ export default function Contact() {
 
 						<div className="mt-10">
 							<p className="mb-5 font-bold">@piterjs</p>
-
-							{/* <div className="flex gap-8">
-								<Image
-									src="/images/icons/social/mail.svg"
-									alt=""
-									width={38}
-									height={38}
-								/>
-								<Image
-									src="/images/icons/social/telegram-outline.svg"
-									alt=""
-									width={38}
-									height={38}
-								/>
-								<Image
-									src="/images/icons/social/instagram.svg"
-									alt=""
-									width={38}
-									height={38}
-								/>
-								<Image
-									src="/images/icons/social/search.svg"
-									alt=""
-									width={38}
-									height={38}
-								/>
-							</div> */}
 						</div>
 					</div>
 				</div>
@@ -109,7 +83,7 @@ export default function Contact() {
 			<div className="pointer-events-none absolute inset-x-0 bottom-0 h-30 bg-gradient-to-t from-black/30 to-transparent" />
 
 			<Image
-				src="/images/black logo.png"
+				src={`${basePath}/images/black logo.png`}
 				alt="PiterJS"
 				width={60}
 				height={60}

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { basePath } from "@/lib/basePath"
 
 import { audience } from "@/data/audience"
 import AudienceItem from "../ui/AudienceItem"
@@ -8,7 +9,7 @@ export default function Audience() {
 	return (
 		<section className="relative h-[900px] overflow-hidden">
 			<Image
-				src="/images/audience-bg.png"
+				src={`${basePath}/images/audience-bg.png`}
 				alt=""
 				fill
 				priority

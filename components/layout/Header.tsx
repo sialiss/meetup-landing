@@ -2,6 +2,7 @@
 
 import Container from "./Container"
 import Image from "next/image"
+import { basePath } from "@/lib/basePath"
 
 const nav = [
 	{
@@ -26,7 +27,7 @@ export default function Header() {
 				<div className="flex h-24 items-center justify-between">
 					<div className="flex items-center">
 						<Image
-							src="/images/logo.png"
+							src={`${basePath}/images/logo.png`}
 							alt="JS"
 							width={40}
 							height={40}

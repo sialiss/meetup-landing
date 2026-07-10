@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { basePath } from "@/lib/basePath"
 
 interface Props {
 	title: string

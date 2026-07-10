@@ -1,12 +1,13 @@
 import Container from "../layout/Container"
 import Button from "../ui/Button"
 import Image from "next/image"
+import { basePath } from "@/lib/basePath"
 
 export default function Hero() {
 	return (
 		<section className="relative flex min-h-screen items-center overflow-hidden">
 			<Image
-				src="/images/hero.png"
+				src={`${basePath}/images/hero.png`}
 				alt=""
 				fill
 				className="absolute inset-0 h-full w-full object-cover"
